@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB7DB4A1EF43487007E8BCF /* UITextField+MovingKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7DB491EF43487007E8BCF /* UITextField+MovingKeyBoard.swift */; };
+		0EB7DB4C1EF44331007E8BCF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7DB4B1EF44331007E8BCF /* FeedVC.swift */; };
+		0EB7DB4E1EF45166007E8BCF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7DB4D1EF45166007E8BCF /* CircleView.swift */; };
+		0EB7DB501EF4575D007E8BCF /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7DB4F1EF4575D007E8BCF /* PostCell.swift */; };
 		0EBF54E11EF0790800AE09F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF54E01EF0790800AE09F2 /* AppDelegate.swift */; };
 		0EBF54E31EF0790800AE09F2 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF54E21EF0790800AE09F2 /* SignInVC.swift */; };
 		0EBF54E61EF0790800AE09F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBF54E41EF0790800AE09F2 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		0EBF54EB1EF0790800AE09F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EBF54E91EF0790800AE09F2 /* LaunchScreen.storyboard */; };
 		0EBF54F61EF0790800AE09F2 /* devslopes_socialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF54F51EF0790800AE09F2 /* devslopes_socialTests.swift */; };
 		0EBF55031EF0798D00AE09F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EBF55021EF0798D00AE09F2 /* GoogleService-Info.plist */; };
+		0EC3E6A81EF4957F00B9D076 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC3E6A71EF4957F00B9D076 /* DataService.swift */; };
 		0ED8D19F1EF145DD00ED8449 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED8D19E1EF145DD00ED8449 /* FancyView.swift */; };
 		0ED8D1A11EF1464700ED8449 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED8D1A01EF1464700ED8449 /* Constants.swift */; };
 		0ED8D1A31EF1478D00ED8449 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED8D1A21EF1478D00ED8449 /* RoundBtn.swift */; };
@@ -36,6 +41,11 @@
 /* Begin PBXFileReference section */
 		008705BE58519F282159035B /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BA00B67A8FE3A17017E328 /* Pods_devslopes_socialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_socialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB7DB481EF41777007E8BCF /* devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-social.entitlements"; sourceTree = "<group>"; };
+		0EB7DB491EF43487007E8BCF /* UITextField+MovingKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+MovingKeyBoard.swift"; sourceTree = "<group>"; };
+		0EB7DB4B1EF44331007E8BCF /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		0EB7DB4D1EF45166007E8BCF /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		0EB7DB4F1EF4575D007E8BCF /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		0EBF54DD1EF0790800AE09F2 /* devslopes-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "devslopes-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EBF54E01EF0790800AE09F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EBF54E21EF0790800AE09F2 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -47,6 +57,7 @@
 		0EBF54F51EF0790800AE09F2 /* devslopes_socialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devslopes_socialTests.swift; sourceTree = "<group>"; };
 		0EBF54F71EF0790900AE09F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EBF55021EF0798D00AE09F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0EC3E6A71EF4957F00B9D076 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		0ED8D19E1EF145DD00ED8449 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		0ED8D1A01EF1464700ED8449 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0ED8D1A21EF1478D00ED8449 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
@@ -101,6 +112,8 @@
 		0EBF54DF1EF0790800AE09F2 /* devslopes-social */ = {
 			isa = PBXGroup;
 			children = (
+				0EC3E6A61EF4956A00B9D076 /* Services */,
+				0EB7DB481EF41777007E8BCF /* devslopes-social.entitlements */,
 				0EBF55081EF07B8C00AE09F2 /* Extensions */,
 				0EBF55071EF07B8400AE09F2 /* Protocols */,
 				0EBF55061EF07B7F00AE09F2 /* Util */,
@@ -126,6 +139,7 @@
 			children = (
 				0EBF54E01EF0790800AE09F2 /* AppDelegate.swift */,
 				0EBF54E21EF0790800AE09F2 /* SignInVC.swift */,
+				0EB7DB4B1EF44331007E8BCF /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -139,6 +153,8 @@
 				0ED8D1A21EF1478D00ED8449 /* RoundBtn.swift */,
 				0ED8D1A41EF148E000ED8449 /* FancyField.swift */,
 				0ED8D1A61EF149D600ED8449 /* FancyBtn.swift */,
+				0EB7DB4D1EF45166007E8BCF /* CircleView.swift */,
+				0EB7DB4F1EF4575D007E8BCF /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -178,8 +194,17 @@
 		0EBF55081EF07B8C00AE09F2 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0EB7DB491EF43487007E8BCF /* UITextField+MovingKeyBoard.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		0EC3E6A61EF4956A00B9D076 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0EC3E6A71EF4957F00B9D076 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		59C4BA5A31D1E0465B796F95 /* Pods */ = {
@@ -260,6 +285,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = UN3RJJV688;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					0EBF54F01EF0790800AE09F2 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -407,11 +437,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB7DB4C1EF44331007E8BCF /* FeedVC.swift in Sources */,
 				0ED8D1A51EF148E000ED8449 /* FancyField.swift in Sources */,
 				0EBF54E31EF0790800AE09F2 /* SignInVC.swift in Sources */,
+				0EC3E6A81EF4957F00B9D076 /* DataService.swift in Sources */,
 				0ED8D1A31EF1478D00ED8449 /* RoundBtn.swift in Sources */,
 				0EBF54E11EF0790800AE09F2 /* AppDelegate.swift in Sources */,
+				0EB7DB4A1EF43487007E8BCF /* UITextField+MovingKeyBoard.swift in Sources */,
+				0EB7DB4E1EF45166007E8BCF /* CircleView.swift in Sources */,
 				0ED8D19F1EF145DD00ED8449 /* FancyView.swift in Sources */,
+				0EB7DB501EF4575D007E8BCF /* PostCell.swift in Sources */,
 				0ED8D1A11EF1464700ED8449 /* Constants.swift in Sources */,
 				0ED8D1A71EF149D600ED8449 /* FancyBtn.swift in Sources */,
 			);
@@ -553,6 +588,7 @@
 			baseConfigurationReference = B8E7C97B192E3CD9582B98F6 /* Pods-devslopes-social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
 				DEVELOPMENT_TEAM = UN3RJJV688;
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -567,6 +603,7 @@
 			baseConfigurationReference = 754B2D3AD0E5D68D0DB4D8F5 /* Pods-devslopes-social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "devslopes-social/devslopes-social.entitlements";
 				DEVELOPMENT_TEAM = UN3RJJV688;
 				INFOPLIST_FILE = "devslopes-social/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

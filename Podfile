@@ -10,6 +10,10 @@ target 'devslopes-social' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FacebookShare'
+  pod 'SwiftKeychainWrapper'
 
 
   target 'devslopes-socialTests' do

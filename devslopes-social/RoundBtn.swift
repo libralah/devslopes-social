@@ -8,7 +8,6 @@
 
 import UIKit
 
-@IBDesignable
 class RoundBtn: UIButton {
 
     override func awakeFromNib() {
