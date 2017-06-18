@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EB0D2C61EF5FF310007FF8E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB0D2C51EF5FF310007FF8E /* Post.swift */; };
 		0EB7DB4A1EF43487007E8BCF /* UITextField+MovingKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7DB491EF43487007E8BCF /* UITextField+MovingKeyBoard.swift */; };
 		0EB7DB4C1EF44331007E8BCF /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7DB4B1EF44331007E8BCF /* FeedVC.swift */; };
 		0EB7DB4E1EF45166007E8BCF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB7DB4D1EF45166007E8BCF /* CircleView.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		008705BE58519F282159035B /* Pods_devslopes_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BA00B67A8FE3A17017E328 /* Pods_devslopes_socialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_devslopes_socialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EB0D2C51EF5FF310007FF8E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		0EB7DB481EF41777007E8BCF /* devslopes-social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "devslopes-social.entitlements"; sourceTree = "<group>"; };
 		0EB7DB491EF43487007E8BCF /* UITextField+MovingKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+MovingKeyBoard.swift"; sourceTree = "<group>"; };
 		0EB7DB4B1EF44331007E8BCF /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		0EBF55041EF0799B00AE09F2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0EB0D2C51EF5FF310007FF8E /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				0ED8D1A51EF148E000ED8449 /* FancyField.swift in Sources */,
 				0EBF54E31EF0790800AE09F2 /* SignInVC.swift in Sources */,
 				0EC3E6A81EF4957F00B9D076 /* DataService.swift in Sources */,
+				0EB0D2C61EF5FF310007FF8E /* Post.swift in Sources */,
 				0ED8D1A31EF1478D00ED8449 /* RoundBtn.swift in Sources */,
 				0EBF54E11EF0790800AE09F2 /* AppDelegate.swift in Sources */,
 				0EB7DB4A1EF43487007E8BCF /* UITextField+MovingKeyBoard.swift in Sources */,
